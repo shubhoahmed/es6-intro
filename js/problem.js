@@ -1,10 +1,13 @@
-function getSum(a, b = 9) {
-    return a + b;
-}
-console.log(getSum(2, 7));
+//Problem-1.1
 
-const y = x => x * x;
-const z = y(5);
-console.log(z);
+const multiply = (x, y, z = 1) => x * y * z;
+const result = multiply(4, 4);
+console.log(result);
 
-const myFunc = () => console.log('nayek');
+//problem-1.2
+const p = `I am a web developer.
+ I love to code.
+ I love to eat biryani.`;
+console.log(p);
+
+//Problem 1.3
